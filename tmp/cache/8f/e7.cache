@@ -1,0 +1,86 @@
+a:2:{s:9:"nom_cache";s:38:"8fe787d26c5a075c47a8fe226922f6e6.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_acfb689da8b7f0df9e71fabce85f186f";s:6:"source";s:23:"squelettes/article.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"8fe787d26c5a075c47a8fe226922f6e6.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:7944:"
+<!DOCTYPE html>
+<html lang="fr" >
+
+<head>
+<?php echo recuperer_fond( 'inclure/head', array('lang' => 'fr'), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',6,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+</head>
+
+
+<body>
+
+        <header>
+
+                <div class="headE">SCOUTS DU CAMEROUN</div>
+                <div class="triH"></div>
+                <div class="triH2"></div>
+        </header>
+<h2 class="Bienvenue">L&#8217;association des Scouts du Cameroun  </h2>
+	<div class="center-imagev2">
+	<div class="logoAcc"><img class='spip_logo spip_logos' alt="" src="IMG/arton3.png?1612671858" width='200' height='200' /></div>
+	</div>
+
+<?php echo recuperer_fond( 'inclure/navigation', array('lang' => 'fr'), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',23,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+
+<div class="zoneArticle">
+	<div  class="section">
+                        <div class="arbo"><a href="https://lesscoutsducameroun.sytes.net/">Accueil</a> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAABmJLR0QA/wD/AP+gvaeTAAAAxUlEQVQokWNgQAL/9zOwfDzG585AADAhcz4y8+sx/GPc8emwQDHRmhiZ/zMzMDAw/Gf83/PhCH8lUZpQDGBgaMOlEacmJI0VJGmCamxH18iCzHn1lV+Q5f//ezA+P+dXBmbGfwyMjAyp/88wzGE0YXiDoennLzZJMYE3Sui2/f/PsBOmgSjn/f/PsFPA9qMH0X76/ZcZQwNeTc8/8+8UsX+HoQFD07//TL8ZGBgYXn4W3Kzh+QirBgxwf74Cx9VtilWE1AEA+vFAvFE5IesAAAAASUVORK5CYII="><a href="spip.php?rubrique2">Scouts du Cameroun</a> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAABmJLR0QA/wD/AP+gvaeTAAAAxUlEQVQokWNgQAL/9zOwfDzG585AADAhcz4y8+sx/GPc8emwQDHRmhiZ/zMzMDAw/Gf83/PhCH8lUZpQDGBgaMOlEacmJI0VJGmCamxH18iCzHn1lV+Q5f//ezA+P+dXBmbGfwyMjAyp/88wzGE0YXiDoennLzZJMYE3Sui2/f/PsBOmgSjn/f/PsFPA9qMH0X76/ZcZQwNeTc8/8+8UsX+HoQFD07//TL8ZGBgYXn4W3Kzh+QirBgxwf74Cx9VtilWE1AEA+vFAvFE5IesAAAAASUVORK5CYII="> <strong class="on">L’association des Scouts du Cameroun</strong></div>
+
+
+
+
+
+
+		<article>
+<p><h3 class="spip">Présentation de l&#8217;association</h3><h3 class="spip">Organisation du mouvement scouts</h3>
+<p>L&#8217;Organisation mondiale du mouvement scout (OMMS) est une organisation indépendante, non lucrative et non partisane, comptant plus de 50 millions de membres, actifs à travers un réseau international de groupes locaux soutenus par des organisations scoutes nationales réparties dans 160 pays et territoires.</p>
+<h3 class="spip">Le Scoutisme au Cameroun</h3>
+<p>Le scoutisme aurait fait son entrée en 1924, grâce à Patrick Mudje originaire de Sierra Leone.La première troupe est créée à l&#8217;école publique de Limbe (alors Victoria), puis la deuxième à Bodjongo, toujours dans la province du Sud-Ouest. Le scoutisme nigérian, lui-même inspiré par le Quartier générale de Londres.</p>
+<p>C&#8217;est plus tard que le mouvement fait son entrée dans la partie francophone du pays, grâce au pasteur protestant Nouvelon 1er ,qui fonde une troupe à Douala.L&#8217;expansion réelle du mouvement ne se fera de façon sensible qu&#8217;à partir de 1937, et la consécration juridique interviendra en 1947. Les scouts du Cameroun ne sont encore que des sections locales du scoutisme français régi par la loi de 1901.</p>
+<p>Au moment de l&#8217;indépendance du Cameroun,(1er janvier 1960) le scoutisme compte en tout six (6) associations&nbsp;:</p>
+<p>a)Quatre (4) au Cameroun oriental</p>
+<p><img src=""  class="puce" alt="-" />&nbsp;Les Eclaireurs et Eclaireuses du Cameroun (laïcs)
+<br /><img src=""  class="puce" alt="-" />&nbsp;Les Eclaireurs unionistes du Cameroun (protestants)
+<br /><img src=""  class="puce" alt="-" />&nbsp;Les scouts catholiques (garçons)
+<br /><img src=""  class="puce" alt="-" />&nbsp;Les guides catholiques (filles)<br class='autobr' />
+b)Deux (2) au Cameroun occidental</p>
+<p><img src=""  class="puce" alt="-" />&nbsp;La West-Cameroon Boy Scouts Association (garçons)
+<br /><img src=""  class="puce" alt="-" />&nbsp;Les Girls Guides of Cameroon (filles)<br class='autobr' />
+Le 19 juillet 1969 à Tiko, ces différentes associations se regroupent au sein de la Fédération nationale du scoutisme camerounais (FENASCOUT), dont le statut garantit néanmoins à chacune son autonomie. Cette fédération est reconnue par le comité mondial du mouvement scout le 26 mars 1971.</p>
+<p>En 1973, au cours du congrès des 23 et 24 juin à Yaoundé, les associations précédemment affiliées à la FENASCOUT décident de se dissoudre pour fondre en une seule association nationale&nbsp;: les Scouts du Cameroun. Les responsables féminins se regroupent aussi pour former une association féminine dénommée les Guides du Cameroun.</p>
+<p>Les signataires de ces actes de dissolution et de fusion sont&nbsp;:</p>
+<p><img src=""  class="puce" alt="-" />&nbsp;Alphonse Fauben pour les Scouts catholiques du Cameroun</p>
+<p><img src=""  class="puce" alt="-" />&nbsp;EF.Ngando etE.N. Yibain pour la West Cameroon Boy Scouts Association</p>
+<p><img src=""  class="puce" alt="-" />&nbsp;Joseph Eyoum Priso et P.Manga Bossady pour les Eclaireurs et Eclaireuses du Cameroun.</p>
+<h3 class="spip">Le scoutisme principes fondamentaux</h3>
+<p>Definition<br class='autobr' />
+Le Scoutisme est un mouvement d&#8217;éducation pour jeunes.<br class='autobr' />
+En tant que mouvement, et pour promouvoir ses activités, puis garantir la poursuite de ses objectifs tel que conçus par le fondateur, il comporte une structure organisationnelle&nbsp;: l&#8217;Organisation Mondiale du Mouvement Scout.</p>
+<p>Ce mouvement n&#8217;est pas purement récréatif, il est essentiellement éducatif&nbsp;: c&#8217;est un processus visant la pleine réalisation des capacités de l&#8217;individu.</p>
+<p>Il s&#8217;agit d&#8217;amener le garçon à apprendre par lui-même, et de son propre désir, les choses qui tendent à former son caractère. dira B.P.</p>
+<p>Le mouvement scout&nbsp;:</p>
+<p><img src=""  class="puce" alt="-" />&nbsp;agit dans le cadre non formel, en dehors de la famille, de l&#8217;école et de toute autre structure formelle.</p>
+<p><img src=""  class="puce" alt="-" />&nbsp;est fondé sur le volontariat, l&#8217;adhésion ne se faisant que par acceptation libre des principes fondamentaux, tant pour les jeunes que pour les adultes.</p>
+<p><img src=""  class="puce" alt="-" />&nbsp;est ouvert à tous, sans distinction ni discrimination aucune.</p>
+<h3 class="spip">But</h3>
+<p>Contribuer au développement du jeune en l&#8217;aidant à réaliser pleinement ses possibilités physiques, intellectuelles, sociales et spirituelles en tant que personne, bon citoyen et membre des communautés locale, nationale et internationale.</p>
+<p>Ainsi, le mouvement scout&nbsp;:</p>
+<p><img src=""  class="puce" alt="-" />&nbsp;complète l&#8217;impact pédagogique des institutions formelles (famille, école, église...), sans prétendre les remplacer&nbsp;;</p>
+<p><img src=""  class="puce" alt="-" />&nbsp;considère que le développement intègre toutes les dimensions de la personne&nbsp;: physique, intellectuelle, social, culture, spirituelle...&nbsp;;</p>
+<p><img src=""  class="puce" alt="-" />&nbsp;amène le jeune, à travers une claire vision de ses droits et obligations au sein de sa communauté, à devenir un citoyen responsable dans sa famille, son quartier ou village, sa nation, son église ou toute autre institution à laquelle il adhère.</p></p>
+		</article>
+	</div>
+</div>
+<?php echo recuperer_fond( 'inclure/scroll', array('lang' => 'fr'), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',39,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+
+
+                                        
+<?php echo recuperer_fond( 'inclure/footer', array('lang' => 'fr'), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',43,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+</body>
+</html>
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:8:"article3";s:0:"";s:10:"id_article";s:1:"3";s:4:"date";s:19:"2021-02-07 05:38:48";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2021-02-07 05:38:48";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1612672728;s:2:"gz";b:0;s:3:"sig";i:-1120543041;}}
