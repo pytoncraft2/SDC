@@ -1,0 +1,111 @@
+a:2:{s:9:"nom_cache";s:38:"318d337914598d32d9427ab92a060bfa.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_20bad19474852c2c1a99d7289d969071";s:6:"source";s:24:"squelettes/sommaire.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"318d337914598d32d9427ab92a060bfa.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:4684:"<!DOCTYPE html>
+<html lang="fr" >
+
+<head>
+<?php echo recuperer_fond( 'inclure/head', array('lang' => 'fr'), array("compil"=>array('squelettes/sommaire.html','html_20bad19474852c2c1a99d7289d969071','',5,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+</head>
+
+
+<body>
+
+        <header>
+
+
+                <div class="headE">SCOUTS DU CAMEROUN</div>
+                <div class="triH"></div>
+                <div class="triH2"></div>
+                </div>
+        </header>
+
+<?php echo recuperer_fond( 'inclure/navigation', array('lang' => 'fr'), array("compil"=>array('squelettes/sommaire.html','html_20bad19474852c2c1a99d7289d969071','',20,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+                       
+                <div class="center-img">
+                <div class="logoAcc">
+		<img class='spip_logo spip_logos' alt="" src="IMG/siteon0.png?1609519744" width='96' height='96' /></div>
+                </div>
+                 <div class="text-ban-Acc">Team-Balance</div>
+                 <div class="text-ban-Acc3">Scouts de Yaoundé</div>
+           
+                <div class="triangle-ban"></div>
+
+
+                <div class="Bienvenue">Bienvenue !</div>
+
+		<div id="txt" class="acceuilTxt"><p>L&#8217;équipe de la Team-Balance vous fait découvrir le scoutisme à travers leurs nombreux projets réalisé depuis 2008 dans *l&#8217;association des Scouts du Cameroun</p></div>
+
+
+<div class="listeArticle">
+
+	<div class="insideListeArticle">
+                
+		<div class="articlesVisu">
+			<div class="articleVisuImage">
+                        <a href="spip.php?article1"><img class='spip_logo spip_logos' alt="" src="IMG/arton1.jpg?1609526694" width='150' height='113' /></a>
+			</div>
+			<div class="articleVisuText">
+                        <a href="spip.php?article1" rel="bookmark">Team-Balance&nbsp;: l&#8217;équipe</a>
+                        <div class="introduction entry-content">Origine
+
+<br />Notre équipe est rattaché au groupe Tiger que vous pouvez découvrir en cliquant ici
+
+<br />Notre équipe se constituée de routiers âgés de 18 à 26&nbsp;<a href="spip.php?article1" class=' pts_suite'>&nbsp;(...)</a></div>
+			</div>
+		</div>
+                
+		<div class="articlesVisu">
+			<div class="articleVisuImage">
+                        
+			</div>
+			<div class="articleVisuText">
+                        <a href="spip.php?article2" rel="bookmark">Team-Balance&nbsp;: les projets</a>
+                        <div class="introduction entry-content">Présentation de nos projets
+
+<br />Quelle tyes de projets&nbsp;? Chantiers,Animation,Visites du pays en collaboration avec les compagnons de france ,telles&nbsp;<a href="spip.php?article2" class=' pts_suite'>&nbsp;(...)</a></div>
+			</div>
+		</div>
+                
+		<div class="articlesVisu">
+			<div class="articleVisuImage">
+                        <a href="spip.php?article4"><img class='spip_logo spip_logos' alt="" src="IMG/arton4.png?1609547075" width='150' height='150' /></a>
+			</div>
+			<div class="articleVisuText">
+                        <a href="spip.php?article4" rel="bookmark">Les Groupes scouts</a>
+                        <div class="introduction entry-content">Présentation du Groupe Tiger
+
+<br />Logo du groupe Le groupe auquel nous sommes rattaché ce nomme Tiger .Il à été crée en 2006 à Yaoundé et il fait partie de&nbsp;<a href="spip.php?article4" class=' pts_suite'>&nbsp;(...)</a></div>
+			</div>
+		</div>
+                
+		<div class="articlesVisu">
+			<div class="articleVisuImage">
+                        <a href="spip.php?article3"><img class='spip_logo spip_logos' alt="" src="IMG/arton3.png?1609534751" width='150' height='150' /></a>
+			</div>
+			<div class="articleVisuText">
+                        <a href="spip.php?article3" rel="bookmark">L&#8217;association des Scouts du Cameroun </a>
+                        <div class="introduction entry-content">Présentation de l&#8217;association
+
+<br />Organisation du mouvement scouts
+
+<br />L&#8217;Organisation mondiale du mouvement scout (OMMS) est une organisation indépendante,&nbsp;<a href="spip.php?article3" class=' pts_suite'>&nbsp;(...)</a></div>
+			</div>
+		</div>
+                
+	</div>
+
+
+</div>
+<?php echo recuperer_fond( 'inclure/scroll', array('lang' => 'fr'), array("compil"=>array('squelettes/sommaire.html','html_20bad19474852c2c1a99d7289d969071','',55,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+
+
+
+
+
+                                        
+<?php echo recuperer_fond( 'inclure/footer', array('lang' => 'fr'), array("compil"=>array('squelettes/sommaire.html','html_20bad19474852c2c1a99d7289d969071','',62,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+</body>
+</html>
+";s:5:"notes";s:0:"";s:8:"contexte";a:4:{s:4:"date";s:19:"2021-02-07 05:14:40";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2021-02-07 05:14:40";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1612671279;s:2:"gz";b:0;s:3:"sig";i:445954567;}}

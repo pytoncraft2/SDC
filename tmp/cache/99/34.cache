@@ -1,0 +1,29 @@
+a:2:{s:9:"nom_cache";s:38:"9934c4ad72624f0d40d029961c71478f.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_b919266e358385c27f070b63ada6ffa3";s:6:"source";s:34:"squelettes/inclure/navigation.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"9934c4ad72624f0d40d029961c71478f.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:1534:"
+	        <nav id="nav" draggable="true" >
+
+                        <div class="contenus">
+				<div id="openMenu">Menu</div>
+
+                                <!--version ordi-->
+
+                                <div class="navOrdi">
+
+                                <a class="e1" href="https://lesscoutsducameroun.sytes.net"><i class="fas fa-home"></i><span class="x"> Acceuil</span></a>
+
+                                <a class="e1" href="https://lesscoutsducameroun.sytes.net/spip.php?article1"><i class="fas fa-users"></i><span class="x"> Notre équipe</span></a>
+                                <a class="e1" href="https://lesscoutsducameroun.sytes.net/spip.php?article2"><i class="fas fa-tasks"></i><span class="x"> Nos projets</span></a>
+                                <a class="e1" href="https://lesscoutsducameroun.sytes.net/spip.php?article4"><i class="fas fa-layer-group"></i><span class="x"> Les Groupes</span></a>
+                                <a class="e1" href="https://lesscoutsducameroun.sytes.net/spip.php?article3"><i class="fas fa-globe-africa"></i><span class="x"> L'association</span></a>
+<a class="e1" href="https://lesscoutsducameroun.sytes.net/jeux.html"><i id="JeuxAnimation" class="fas fa-dice"></i><span class="x"> Jeux</span></a>
+<a class="e1" href="https://lesscoutsducameroun.sytes.net/spip.php?page=contact"><i class="fas fa-address-card"></i><span class="x"> Contacts</span></a>
+
+
+
+                                </div>
+
+<!--version portable-->
+
+ 
+                </nav>	
+			<div id="quit"></div>
+";s:5:"notes";s:0:"";s:8:"contexte";a:5:{s:4:"lang";s:2:"fr";s:4:"date";s:19:"2021-02-07 05:14:40";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2021-02-07 05:14:40";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1612671279;s:2:"gz";b:0;s:3:"sig";i:243503032;}}

@@ -1,0 +1,24 @@
+2021-01-02 16:05:58 83.196.62.55 (pid 20735) :Pri:!INFO: MAJ terminee. menuder_base_version: 
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: maj meta facteur_base_version_maj_init etape 0: ecrire_config facteur/mailer,mail
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: facteur_base_version_maj_init: ok
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: maj meta facteur_base_version_maj_init etape 1: ecrire_config facteur/smtp_auth,non
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: facteur_base_version_maj_init: ok
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: maj meta facteur_base_version_maj_init etape 2: ecrire_config facteur/smtp_secure,non
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: facteur_base_version_maj_init: ok
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: maj meta facteur_base_version_maj_init etape 3: ecrire_config facteur/smtp_sender,
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: facteur_base_version_maj_init: ok
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: maj meta facteur_base_version_maj_init etape 4: ecrire_config facteur/filtre_images,0
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: facteur_base_version_maj_init: ok
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: maj meta facteur_base_version_maj_init etape 5: ecrire_config facteur/filtre_css,0
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: facteur_base_version_maj_init: ok
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: maj meta facteur_base_version_maj_init etape 6: ecrire_config facteur/filtre_iso_8859,0
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: facteur_base_version_maj_init: ok
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: maj meta facteur_base_version_maj_init etape 7: ecrire_config facteur/adresse_envoi,non
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: facteur_base_version_maj_init: ok
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: maj meta facteur_base_version_maj_init etape 8: facteur_vieil_upgrade 
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: facteur_base_version_maj_init: ok
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: meta facteur_base_version: init en 0 secondes
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: maj meta facteur_base_version_maj_2.0.0 etape 0: inc_config_dist 
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: facteur_base_version_maj_2.0.0: ok
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: meta facteur_base_version: 2.0.0 en 0 secondes
+2021-01-02 23:31:27 83.196.62.55 (pid 22865) :Pri:!INFO: MAJ terminee. facteur_base_version: 2.0.0

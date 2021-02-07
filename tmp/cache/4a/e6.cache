@@ -1,0 +1,11 @@
+a:2:{s:9:"nom_cache";s:38:"4ae6d2939a037031e88570f900bd2877.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_2dae1dbdb06a4a67fa166168d5ffd839";s:6:"source";s:30:"squelettes/inclure/footer.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:2:{s:5:"cache";s:38:"637c256c08dd3c34a76e599ce5651579.cache";s:7:"session";s:0:"";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:726:"<footer>
+                                                                        
+                                                                         
+        <div class="legal">©2020 Team-Balance - Scouts du Cameroun
+                <a rel="contents" href="spip.php?page=plan" class="first" title="Plan du site"><span class="lnr lnr-layers"></span></a>
+                  <a href="spip.php?page=login&amp;url=.%2F" rel="nofollow" class='login_modal' title="Se connecter"><span class="lnr lnr-enter"></span></a> 
+                <a rel="nofollow" href="spip.php?page=contact" title="Contacts"><span class="lnr lnr-map-marker"></span></a>
+	</div>
+
+</footer>                                                                
+";s:5:"notes";s:0:"";s:8:"contexte";a:5:{s:4:"lang";s:2:"fr";s:4:"date";s:19:"2021-02-07 05:14:43";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2021-02-07 05:14:43";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1612671283;s:2:"gz";b:0;s:3:"sig";i:1378372145;}}

@@ -1,0 +1,9 @@
+2021-01-02 23:33:08 83.196.62.55 (pid 21382) :Pri:ERREUR: SPIP\Facteur\FacteurMail: parent::Send() : Could not instantiate mail function.
+2021-01-02 23:34:08 83.196.62.55 (pid 25267) :Pri:ERREUR: SPIP\Facteur\FacteurMail: parent::Send() : Could not instantiate mail function.
+2021-01-02 23:34:26 83.196.62.55 (pid 27795) :Pri:ERREUR: SPIP\Facteur\FacteurMail: parent::Send() : Could not instantiate mail function.
+2021-01-02 23:57:48 83.196.62.55 (pid 23976) :Pri:ERREUR: SPIP\Facteur\FacteurSMTP: parent::Send() : SMTP Error: Could not connect to SMTP host.
+2021-01-02 23:58:15 83.196.62.55 (pid 27790) :Pri:ERREUR: SPIP\Facteur\FacteurSMTP: parent::Send() : SMTP Error: Could not connect to SMTP host.
+2021-01-03 00:00:40 83.196.62.55 (pid 29181) :Pri:ERREUR: SPIP\Facteur\FacteurSMTP: parent::Send() : SMTP Error: Could not connect to SMTP host.
+2021-01-03 00:03:50 83.196.62.55 (pid 29182) :Pri:ERREUR: SPIP\Facteur\FacteurSMTP: parent::Send() : SMTP Error: Could not connect to SMTP host.
+2021-01-03 00:04:14 83.196.62.55 (pid 29183) :Pri:ERREUR: SPIP\Facteur\FacteurSMTP: parent::Send() : SMTP Error: Could not connect to SMTP host.
+2021-01-03 00:04:31 83.196.62.55 (pid 29184) :Pri:ERREUR: SPIP\Facteur\FacteurSMTP: parent::Send() : SMTP Error: Could not connect to SMTP host.

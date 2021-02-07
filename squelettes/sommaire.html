@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr" >
+
+<head>
+<INCLURE{fond=inclure/head} />
+</head>
+
+
+<body>
+
+        <header>
+
+
+                <div class="headE">SCOUTS DU CAMEROUN</div>
+                <div class="triH"></div>
+                <div class="triH2"></div>
+                </div>
+        </header>
+
+<INCLURE{fond=inclure/navigation} />
+                       
+                <div class="center-img">
+                <div class="logoAcc">
+		[(#LOGO_SITE_SPIP|image_reduire{224,96})]</div>
+                </div>
+                 <div class="text-ban-Acc">Team-Balance</div>
+                 <div class="text-ban-Acc3">Scouts de Yaoundé</div>
+           
+                <div class="triangle-ban"></div>
+
+
+                <div class="Bienvenue">Bienvenue !</div>
+
+		<div id="txt" class="acceuilTxt">[(#DESCRIPTIF_SITE_SPIP)]</div>
+
+<B_articles>
+<div class="listeArticle">
+
+	<div class="insideListeArticle">
+                <BOUCLE_articles(ARTICLES) {!par date} {pagination}>
+		<div class="articlesVisu">
+			<div class="articleVisuImage">
+                        [(#LOGO_ARTICLE_RUBRIQUE{#URL_ARTICLE}|image_reduire{150,*})]
+			</div>
+			<div class="articleVisuText">
+                        <a href="#URL_ARTICLE" rel="bookmark">#TITRE</a>
+                        [<div class="#EDIT{intro} introduction entry-content">(#INTRODUCTION)</div>]
+			</div>
+		</div>
+                </BOUCLE_articles>
+	</div>
+
+
+</div>
+<INCLURE{fond=inclure/scroll} />
+
+
+</B_articles>
+
+
+                                        
+<INCLURE{fond=inclure/footer} />
+</body>
+</html>

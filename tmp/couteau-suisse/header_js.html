@@ -1,0 +1,10 @@
+<!-- Fichier de controle js pour le plugin 'Couteau Suisse' -->
+
+<script type="text/javascript"><!--
+var cs_prive=window.location.pathname.match(/\/ecrire\/$/)!=null;
+jQuery.fn.cs_todo=function(){return this.not('.cs_done').addClass('cs_done');};
+if(window.jQuery) {
+var cs_sel_jQuery='';
+var cs_CookiePlugin="prive/javascript/jquery.cookie.js";
+}
+// --></script>

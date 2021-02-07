@@ -1,0 +1,11 @@
+* text=auto !eol
+css/img/menuder.gif -text
+css/menuder.css -text
+demo/menuder.html -text
+images/icon.png -text svneol=unset#image/png
+inclure/menuder.html -text
+js/menuder.js -text
+lang/paquet-menuder_fr.php -text
+/menuder_administrations.php -text
+/menuder_pipelines.php -text
+/paquet.xml -text

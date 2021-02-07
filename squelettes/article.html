@@ -1,0 +1,46 @@
+<BOUCLE_principale(ARTICLES) {id_article}>
+<!DOCTYPE html>
+<html lang="fr" >
+
+<head>
+<INCLURE{fond=inclure/head} />
+</head>
+
+
+<body>
+<BOUCLE_article(ARTICLES){id_article}>
+        <header>
+
+                <div class="headE">SCOUTS DU CAMEROUN</div>
+                <div class="triH"></div>
+                <div class="triH2"></div>
+        </header>
+<h2 class="Bienvenue">#TITRE </h2>
+	<div class="center-imagev2">
+	<div class="logoAcc">[(#LOGO_ARTICLE|image_reduire{200, 200})]</div>
+	</div>
+
+<INCLURE{fond=inclure/navigation} />
+
+<div class="zoneArticle">
+	<div  class="section">
+                        <div class="arbo"><a href="#URL_SITE_SPIP/"><:accueil_site:></a><BOUCLE_ariane(HIERARCHIE){id_article}> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAABmJLR0QA/wD/AP+gvaeTAAAAxUlEQVQokWNgQAL/9zOwfDzG585AADAhcz4y8+sx/GPc8emwQDHRmhiZ/zMzMDAw/Gf83/PhCH8lUZpQDGBgaMOlEacmJI0VJGmCamxH18iCzHn1lV+Q5f//ezA+P+dXBmbGfwyMjAyp/88wzGE0YXiDoennLzZJMYE3Sui2/f/PsBOmgSjn/f/PsFPA9qMH0X76/ZcZQwNeTc8/8+8UsX+HoQFD07//TL8ZGBgYXn4W3Kzh+QirBgxwf74Cx9VtilWE1AEA+vFAvFE5IesAAAAASUVORK5CYII="><a href="#URL_RUBRIQUE">[(#TITRE|couper{80})]</a></BOUCLE_ariane>[ <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAABmJLR0QA/wD/AP+gvaeTAAAAxUlEQVQokWNgQAL/9zOwfDzG585AADAhcz4y8+sx/GPc8emwQDHRmhiZ/zMzMDAw/Gf83/PhCH8lUZpQDGBgaMOlEacmJI0VJGmCamxH18iCzHn1lV+Q5f//ezA+P+dXBmbGfwyMjAyp/88wzGE0YXiDoennLzZJMYE3Sui2/f/PsBOmgSjn/f/PsFPA9qMH0X76/ZcZQwNeTc8/8+8UsX+HoQFD07//TL8ZGBgYXn4W3Kzh+QirBgxwf74Cx9VtilWE1AEA+vFAvFE5IesAAAAASUVORK5CYII="> <strong class="on">(#TITRE|couper{80})</strong>]</div>
+
+
+
+
+
+
+		<article>
+<p>#TEXTE</p>
+		</article>
+	</div>
+</div>
+<INCLURE{fond=inclure/scroll} />
+</BOUCLE_article>
+
+                                        
+<INCLURE{fond=inclure/footer} />
+</body>
+</html>
+</BOUCLE_principale>

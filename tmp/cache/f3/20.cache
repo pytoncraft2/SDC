@@ -1,0 +1,17 @@
+a:2:{s:9:"nom_cache";s:38:"f3204acf4fd0d146d68cd92d86027fce.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_2dae1dbdb06a4a67fa166168d5ffd839";s:6:"source";s:30:"squelettes/inclure/footer.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:2:{s:5:"cache";s:38:"637c256c08dd3c34a76e599ce5651579.cache";s:7:"session";s:8:"934888f1";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:1091:"<footer>
+                                                                        
+                                                                         
+        <div class="legal">©2020 Team-Balance - Scouts du Cameroun
+                <a rel="contents" href="spip.php?page=plan" class="first" title="Plan du site"><span class="lnr lnr-layers"></span></a>
+                  <a href="ecrire/" title="Ecrire"><span class="lnr lnr-pencil"></span></a>
+                  <a href="<?php 
+include_once("./" . _DIR_RACINE . "ecrire/balise/url_logout.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_URL_LOGOUT_dyn(''), array('squelettes/inclure/footer.html', 'html_2dae1dbdb06a4a67fa166168d5ffd839', '', 3, 'fr'));
+if ($lang_select) lang_select();
+?>" rel="nofollow" title="Se deconnecter"><span class="lnr lnr-exit"></span></a> 
+                <a rel="nofollow" href="spip.php?page=contact" title="Contacts"><span class="lnr lnr-map-marker"></span></a>
+	</div>
+
+</footer>                                                                
+";s:5:"notes";s:0:"";s:8:"contexte";a:5:{s:4:"lang";s:2:"fr";s:4:"date";s:19:"2021-02-07 05:14:40";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2021-02-07 05:14:40";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1612671279;s:2:"gz";b:0;s:3:"sig";i:-480883228;}}

@@ -1,0 +1,54 @@
+a:2:{s:9:"nom_cache";s:38:"6aace55b7148b7501a1d4b6af4e9fb68.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_acfb689da8b7f0df9e71fabce85f186f";s:6:"source";s:23:"squelettes/article.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"6aace55b7148b7501a1d4b6af4e9fb68.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:2664:"
+<!DOCTYPE html>
+<html lang="fr" >
+
+<head>
+<?php echo recuperer_fond( 'inclure/head', array('lang' => 'fr'), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',6,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+</head>
+
+
+<body>
+
+        <header>
+
+                <div class="headE">SCOUTS DU CAMEROUN</div>
+                <div class="triH"></div>
+                <div class="triH2"></div>
+        </header>
+<h2 class="Bienvenue">Team-Balance&nbsp;: les projets </h2>
+	<div class="center-imagev2">
+	<div class="logoAcc"></div>
+	</div>
+
+<?php echo recuperer_fond( 'inclure/navigation', array('lang' => 'fr'), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',23,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+
+<div class="zoneArticle">
+	<div  class="section">
+                        <div class="arbo"><a href="https://lesscoutsducameroun.sytes.net/">Accueil</a> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAABmJLR0QA/wD/AP+gvaeTAAAAxUlEQVQokWNgQAL/9zOwfDzG585AADAhcz4y8+sx/GPc8emwQDHRmhiZ/zMzMDAw/Gf83/PhCH8lUZpQDGBgaMOlEacmJI0VJGmCamxH18iCzHn1lV+Q5f//ezA+P+dXBmbGfwyMjAyp/88wzGE0YXiDoennLzZJMYE3Sui2/f/PsBOmgSjn/f/PsFPA9qMH0X76/ZcZQwNeTc8/8+8UsX+HoQFD07//TL8ZGBgYXn4W3Kzh+QirBgxwf74Cx9VtilWE1AEA+vFAvFE5IesAAAAASUVORK5CYII="><a href="spip.php?rubrique1">Team-Balance</a> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAABmJLR0QA/wD/AP+gvaeTAAAAxUlEQVQokWNgQAL/9zOwfDzG585AADAhcz4y8+sx/GPc8emwQDHRmhiZ/zMzMDAw/Gf83/PhCH8lUZpQDGBgaMOlEacmJI0VJGmCamxH18iCzHn1lV+Q5f//ezA+P+dXBmbGfwyMjAyp/88wzGE0YXiDoennLzZJMYE3Sui2/f/PsBOmgSjn/f/PsFPA9qMH0X76/ZcZQwNeTc8/8+8UsX+HoQFD07//TL8ZGBgYXn4W3Kzh+QirBgxwf74Cx9VtilWE1AEA+vFAvFE5IesAAAAASUVORK5CYII="> <strong class="on">Team-Balance : les projets</strong></div>
+
+
+
+
+
+
+		<article>
+<p><h3 class="spip">Présentation de nos projets</h3>
+<p>Quelle tyes de projets&nbsp;?<br class='autobr' />
+Chantiers,Animation,Visites du pays en collaboration avec les compagnons de france ,telles sont nos principales missions.</p>
+<h3 class="spip">Video de présentation</h3></p>
+		</article>
+	</div>
+</div>
+<?php echo recuperer_fond( 'inclure/scroll', array('lang' => 'fr'), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',39,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+
+
+                                        
+<?php echo recuperer_fond( 'inclure/footer', array('lang' => 'fr'), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',43,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+</body>
+</html>
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:8:"article2";s:0:"";s:10:"id_article";s:1:"2";s:4:"date";s:19:"2021-02-07 05:15:01";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2021-02-07 05:15:01";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1612671300;s:2:"gz";b:0;s:3:"sig";i:1171171428;}}
