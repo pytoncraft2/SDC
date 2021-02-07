@@ -23,7 +23,7 @@ a:2:{s:9:"nom_cache";s:38:"318d337914598d32d9427ab92a060bfa.cache";s:6:"valeur";
                        
                 <div class="center-img">
                 <div class="logoAcc">
-		<img class='spip_logo spip_logos' alt="" src="IMG/siteon0.png?1609519744" width='96' height='96' /></div>
+		<img class='spip_logo spip_logos' alt="" src="IMG/siteon0.png?1612671659" width='96' height='96' /></div>
                 </div>
                  <div class="text-ban-Acc">Team-Balance</div>
                  <div class="text-ban-Acc3">Scouts de Yaoundé</div>
@@ -42,7 +42,7 @@ a:2:{s:9:"nom_cache";s:38:"318d337914598d32d9427ab92a060bfa.cache";s:6:"valeur";
                 
 		<div class="articlesVisu">
 			<div class="articleVisuImage">
-                        <a href="spip.php?article1"><img class='spip_logo spip_logos' alt="" src="IMG/arton1.jpg?1609526694" width='150' height='113' /></a>
+                        <a href="spip.php?article1"><img class='spip_logo spip_logos' alt="" src="IMG/arton1.jpg?1612671659" width='150' height='113' /></a>
 			</div>
 			<div class="articleVisuText">
                         <a href="spip.php?article1" rel="bookmark">Team-Balance&nbsp;: l&#8217;équipe</a>
@@ -68,7 +68,7 @@ a:2:{s:9:"nom_cache";s:38:"318d337914598d32d9427ab92a060bfa.cache";s:6:"valeur";
                 
 		<div class="articlesVisu">
 			<div class="articleVisuImage">
-                        <a href="spip.php?article4"><img class='spip_logo spip_logos' alt="" src="IMG/arton4.png?1609547075" width='150' height='150' /></a>
+                        <a href="spip.php?article4"><img class='spip_logo spip_logos' alt="" src="IMG/arton4.png?1612671659" width='150' height='150' /></a>
 			</div>
 			<div class="articleVisuText">
                         <a href="spip.php?article4" rel="bookmark">Les Groupes scouts</a>
@@ -80,7 +80,7 @@ a:2:{s:9:"nom_cache";s:38:"318d337914598d32d9427ab92a060bfa.cache";s:6:"valeur";
                 
 		<div class="articlesVisu">
 			<div class="articleVisuImage">
-                        <a href="spip.php?article3"><img class='spip_logo spip_logos' alt="" src="IMG/arton3.png?1609534751" width='150' height='150' /></a>
+                        <a href="spip.php?article3"><img class='spip_logo spip_logos' alt="" src="IMG/arton3.png?1612671659" width='150' height='150' /></a>
 			</div>
 			<div class="articleVisuText">
                         <a href="spip.php?article3" rel="bookmark">L&#8217;association des Scouts du Cameroun </a>
@@ -108,4 +108,4 @@ a:2:{s:9:"nom_cache";s:38:"318d337914598d32d9427ab92a060bfa.cache";s:6:"valeur";
 ?>
 </body>
 </html>
-";s:5:"notes";s:0:"";s:8:"contexte";a:4:{s:4:"date";s:19:"2021-02-07 05:14:40";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2021-02-07 05:14:40";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1612671279;s:2:"gz";b:0;s:3:"sig";i:445954567;}}
+";s:5:"notes";s:0:"";s:8:"contexte";a:4:{s:4:"date";s:19:"2021-02-07 05:22:28";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2021-02-07 05:22:28";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1612671747;s:2:"gz";b:0;s:3:"sig";i:-649782722;}}

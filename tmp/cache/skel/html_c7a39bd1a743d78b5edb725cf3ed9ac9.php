@@ -2,13 +2,13 @@
 
 /*
  * Squelette : squelettes/inclure/scroll.html
- * Date :      Sat, 02 Jan 2021 03:47:21 GMT
- * Compile :   Sun, 07 Feb 2021 04:14:40 GMT
+ * Date :      Sun, 07 Feb 2021 04:21:02 GMT
+ * Compile :   Sun, 07 Feb 2021 04:22:28 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette squelettes/inclure/scroll.html
-// Temps de compilation total: 0.208 ms
+// Temps de compilation total: 0.202 ms
 //
 
 function html_c7a39bd1a743d78b5edb725cf3ed9ac9($Cache, $Pile, $doublons = array(), $Numrows = array(), $SP = 0) {

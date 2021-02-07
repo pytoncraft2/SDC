@@ -18,7 +18,7 @@ a:2:{s:9:"nom_cache";s:38:"4ce079fff9bc761af16821a0b90cf8d0.cache";s:6:"valeur";
         </header>
 <h2 class="Bienvenue">Team-Balance&nbsp;: l&#8217;équipe </h2>
 	<div class="center-imagev2">
-	<div class="logoAcc"><img class='spip_logo spip_logos' alt="" src="IMG/arton1.jpg?1609526694" width='200' height='150' /></div>
+	<div class="logoAcc"><img class='spip_logo spip_logos' alt="" src="IMG/arton1.jpg?1612671659" width='200' height='150' /></div>
 	</div>
 
 <?php echo recuperer_fond( 'inclure/navigation', array('lang' => 'fr'), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',23,$GLOBALS['spip_lang'])), _request("connect"));
@@ -59,4 +59,4 @@ Au sein de cette équipe nous avons&nbsp;:</p>
 </body>
 </html>
 
-";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:8:"article1";s:0:"";s:10:"id_article";s:1:"1";s:4:"date";s:19:"2021-02-07 05:14:58";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2021-02-07 05:14:58";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1612671298;s:2:"gz";b:0;s:3:"sig";i:-711930395;}}
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:8:"article1";s:0:"";s:10:"id_article";s:1:"1";s:4:"date";s:19:"2021-02-07 05:22:31";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2021-02-07 05:22:31";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1612671751;s:2:"gz";b:0;s:3:"sig";i:2003057582;}}

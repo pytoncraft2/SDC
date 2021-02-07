@@ -2,8 +2,8 @@
 
 /*
  * Squelette : squelettes/article.html
- * Date :      Wed, 06 Jan 2021 03:14:35 GMT
- * Compile :   Sun, 07 Feb 2021 04:14:58 GMT
+ * Date :      Sun, 07 Feb 2021 04:21:02 GMT
+ * Compile :   Sun, 07 Feb 2021 04:22:31 GMT
  * Boucles :   _ariane, _article, _principale
  */ 
 
@@ -256,7 +256,7 @@ BOUCLE_articlehtml_acfb689da8b7f0df9e71fabce85f186f($Cache, $Pile, $doublons, $N
 
 //
 // Fonction principale du squelette squelettes/article.html
-// Temps de compilation total: 19.517 ms
+// Temps de compilation total: 15.304 ms
 //
 
 function html_acfb689da8b7f0df9e71fabce85f186f($Cache, $Pile, $doublons = array(), $Numrows = array(), $SP = 0) {

@@ -2,13 +2,13 @@
 
 /*
  * Squelette : squelettes/inclure/footer.html
- * Date :      Sat, 02 Jan 2021 00:36:10 GMT
- * Compile :   Sun, 07 Feb 2021 04:14:40 GMT
+ * Date :      Sun, 07 Feb 2021 04:21:02 GMT
+ * Compile :   Sun, 07 Feb 2021 04:22:28 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette squelettes/inclure/footer.html
-// Temps de compilation total: 2.474 ms
+// Temps de compilation total: 2.738 ms
 //
 
 function html_2dae1dbdb06a4a67fa166168d5ffd839($Cache, $Pile, $doublons = array(), $Numrows = array(), $SP = 0) {
