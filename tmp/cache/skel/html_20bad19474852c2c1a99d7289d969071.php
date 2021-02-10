@@ -2,8 +2,8 @@
 
 /*
  * Squelette : squelettes/sommaire.html
- * Date :      Sun, 07 Feb 2021 04:21:02 GMT
- * Compile :   Sun, 07 Feb 2021 04:22:28 GMT
+ * Date :      Sun, 07 Feb 2021 04:24:21 GMT
+ * Compile :   Wed, 10 Feb 2021 21:03:09 GMT
  * Boucles :   _articles
  */ 
 
@@ -111,7 +111,7 @@ interdire_scripts(supprimer_numero(typo($Pile[$SP]['titre']), "TYPO", $connect, 
 
 //
 // Fonction principale du squelette squelettes/sommaire.html
-// Temps de compilation total: 10.009 ms
+// Temps de compilation total: 16.188 ms
 //
 
 function html_20bad19474852c2c1a99d7289d969071($Cache, $Pile, $doublons = array(), $Numrows = array(), $SP = 0) {

@@ -1,7 +1,7 @@
 <?php
 
 if (defined('_ECRIRE_INC_VERSION')) {
-define('_PLUGINS_HASH','6050301e96d2ca8a35a78869424cd385');
+define('_PLUGINS_HASH','8eb8a3646317106c8709a61ffe56e7e7');
 include_once_check(_ROOT_PLUGINS_DIST.'aide/aide_options.php');
 include_once_check(_ROOT_PLUGINS_DIST.'petitions/petitions_options.php');
 include_once_check(_ROOT_PLUGINS_DIST.'squelettes_par_rubrique/squelettes_par_rubrique_options.php');
