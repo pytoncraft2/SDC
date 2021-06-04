@@ -1596,11 +1596,10 @@ nav {
   transition: 0.3s;
   color: black;
 }
-
 #openMenu {
   font-size: x-large;
-  color: white;
-  background-color: #393939ad;
+  color: transparent;
+  background-color: transparent;
   cursor: all-scroll;
 }
 
@@ -1624,6 +1623,7 @@ nav {
 @media all and (max-device-width: 480px) {
   #openMenu {
     background-color: transparent;
+    color: white;
   }
 
   nav {

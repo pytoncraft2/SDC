@@ -55,7 +55,7 @@ window.addEventListener("load", function(){
 	}
 
 	/*script emplacement site logo actif*/
-	
+/*	
 	liste = [...document.querySelectorAll(".e1")];
 	x = 0;
 	
@@ -68,4 +68,5 @@ window.addEventListener("load", function(){
 		}
 		x++;
 	}
+	*/
 });
