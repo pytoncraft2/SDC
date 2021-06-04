@@ -15,7 +15,7 @@ canvas {
   bottom: 0;
   height: 100%;
   right: 0;
-  background-image: url("http://localhost/SDC/sct.jpg");
+  background-image: url("https://lesscoutsducameroun.sytes.net/sct.jpg");
 }
 
 .resume {
@@ -108,7 +108,7 @@ body {
                                 padding-left: 4%;*/
   padding: 0;
   margin: 0;
-  background-image: url("http://localhost/SDC/sct.jpg");
+  background-image: url("https://lesscoutsducameroun.sytes.net/sct.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
