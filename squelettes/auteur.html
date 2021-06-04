@@ -1,52 +1,52 @@
 <!DOCTYPE html>
-<html lang="fr" >
+<html lang="fr">
 
 <head>
-<INCLURE{fond=inclure/head} />
+  <INCLURE{fond=inclure /head} />
 </head>
-
-
 <body>
 
+  <BOUCLE_principale(AUTEURS) {id_auteur}>
+
+    <INCLURE{fond=inclure /navigation} />
+    [(#REM) Contenu principal : affichage de l'auteur ]
+    <p class="arbo"><a href="#URL_SITE_SPIP/">
+        <:accueil_site:>
+      </a> &gt; <:info_auteurs:>[ &gt; <strong class="on">(#NOM|couper{80})</strong>]</p>
+
+    <div class="vcard">[(#REM) microformat vcard]
+
+      [<div class="#EDIT{bio} texte note">(#BIO)</div>]
+      [<p class="#EDIT{hyperlien} hyperlien">
+        <:voir_en_ligne:> : <a href="(#URL_SITE)" class="url org spip_out">[(#NOM_SITE|sinon{[(#URL_SITE|couper{80})]})]</a>
+      </p>]
+    </div>[(#REM) / vcard]
+
+    #FORMULAIRE_ECRIRE_AUTEUR
+
+    [<div class="notes">
+      <hr />(#NOTES)
+    </div>]
+    <BOUCLE_article(ARTICLES){id_article}>
+      <header>
+
+        <div class="headE">SCOUTS DU CAMEROUN</div>
+        <div class="triH"></div>
+        <div class="triH2"></div>
+      </header>
+      <h2 class="Bienvenue">#TITRE </h2>
+      <div class="center-imagev2">
+        <div class="logoAcc">[(#LOGO_SITE_SPIP|image_reduire{224,96})]</div>
+      </div>
+
+      </BOUCLE_article>
 
 
+      <INCLURE{fond=inclure /scroll} />
 
 
-
-<BOUCLE_principale(AUTEURS) {id_auteur}>
-
-<INCLURE{fond=inclure/navigation} />
-                [(#REM) Contenu principal : affichage de l'auteur ]
-                        <p class="arbo"><a href="#URL_SITE_SPIP/"><:accueil_site:></a> &gt; <:info_auteurs:>[ &gt; <strong class="on">(#NOM|couper{80})</strong>]</p>
-
-                        <div class="vcard">[(#REM) microformat vcard]
-
-                        [<div class="#EDIT{bio} texte note">(#BIO)</div>]
-                        [<p class="#EDIT{hyperlien} hyperlien"><:voir_en_ligne:> : <a href="(#URL_SITE)" class="url org spip_out">[(#NOM_SITE|sinon{[(#URL_SITE|couper{80})]})]</a></p>]
-                        </div>[(#REM) / vcard]
-
-                        #FORMULAIRE_ECRIRE_AUTEUR
-
-                        [<div class="notes"><hr />(#NOTES)</div>]
-<BOUCLE_article(ARTICLES){id_article}>
-        <header>
-
-                <div class="headE">SCOUTS DU CAMEROUN</div>
-                <div class="triH"></div>
-                <div class="triH2"></div>
-        </header>
-<h2 class="Bienvenue">#TITRE </h2>
-	<div class="center-imagev2">
-	<div class="logoAcc">[(#LOGO_SITE_SPIP|image_reduire{224,96})]</div>
-	</div>
-
-</BOUCLE_article>
-
-
-<INCLURE{fond=inclure/scroll} />
-
-                                        
-<INCLURE{fond=inclure/footer} />
+      <INCLURE{fond=inclure /footer} />
 </body>
+
 </html>
 </BOUCLE_principale>

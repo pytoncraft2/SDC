@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset="UTF-8">
+
+<INCLURE{fond=inclure/headTeemo} />
+
+
+    <title>Jeux</title>
+    <head>
+	    <meta http-equiv="Content-Type" content="text/html"; charset=UTF-8 />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+
+<body>
+
+	<h1 class="#top">Jeux<span></h1>
+
+
+
+
+
+<div class="resume">
+
+
+
+<hr class="titre">
+        <div id="haut" style="background-color: #ffffffb8">
+        <p class="listingMission"> <img id="imgTeemoTeemo" src="Daco_4479547.png"> Salut l'ami !<br>Je m'appelle Teemo, je suis à la recherche de 5 foulards que j'ai perdu dans la forêt !<br>Aurais-tu l'honneur de m'aider à les récupérer ?</p>
+        </div>
+
+        <button type="button" class="validation" id="firstValider" onclick="document.getElementById('disMoiEnPlus').style.display = 'block',document.getElementById('firstValider').style.display = 'none',document.getElementById('haut').style.display = 'none'">Dis-moi en plus sur la mission!</button>
+
+        <div id="disMoiEnPlus" style="background-color:#ffffffb8;display:none">
+        <p class="listingMission">Votre objectif : Aider Teemo à obtenir 5 Foulards en réussissant les épreuves ci-dessous!
+Bonne chance ;-)</div>
+
+
+       <!--
+        A chaque épreuves réussi tu gagnera 1 foulard<br>
+        Si tu réussi les différents épreuves de la forêt ,un foulard te sera donnétu récupéra un foulard à chaque épreuves réussi Cepandant il n'existe qu'un seul moyens de les récupérer : chaque épreuves réussi tu gagnera un Foulard !</p>
+        <p>Si tu m'aide à les trouver je t'offrerai un très gros trésor !! Parole de Teemo !<p>
+       -->
+        <button type="button" class="validation" onclick="demarrer()">C'est parti !</button>
+
+
+
+       <div id="commencerEpreuves" style="display:none">
+
+<div id="barFoulard" title="Nombres de foulards que vous avez récupérés" style="display:none">
+        <div class="texte"><br><b style="color:white">Foulards<br> <span id="compteurFoulard">0</span>/5</b></div>
+        <div class="Foulards"><img id="rpl1" style="display:none" src="https://image.flaticon.com/icons/png/512/36/36601.png" alt="foulard" width="37vw" height="auto"></div>
+        <div class="Foulards"><img id="rpl2" style="display:none" src="https://image.flaticon.com/icons/png/512/36/36601.png" alt="foulard" width="37vw" height="auto"></div>
+        <div class="Foulards"><img id="rpl3" style="display:none" src="https://image.flaticon.com/icons/png/512/36/36601.png" alt="foulard" width="37vw" height="auto"></div>
+        <div class="Foulards"><img id="rpl4" style="display:none" src="https://image.flaticon.com/icons/png/512/36/36601.png" alt="foulard" width="37vw" height="auto"></div>
+        <div class="Foulards"><img id="cacheCache" style="display:none" src="victoireFoulard.png" alt="foulard" width="37vw" height="auto"></div>
+</div>
+
+
+        <article class="Quizz">
+        <div class="contenus">
+                <h2 id="montrer">Quizz </h2>
+
+                <div id="montre" style="display:none">
+                <h3>Question 1</h3>
+                <img class="imgQuizz" src="https://www.fm-fr.org/wp-content/uploads/2014/01/badenpowell.jpg" width="200px" height="240px" >
+                <p><b>Qui est ce personnage ?</b></p>
+
+
+
+        <script>
+                function demarrer() {
+
+                        document.getElementById("commencerEpreuves").style.display = "block";
+                        document.getElementById("barFoulard").style.display = "flex";
+
+
+                }
+
+        </script>
+
+
+        <p id="resultatRadio"></p>
+
+
+
+
+
+                 <div class="blockQuizz">
+                         <div class="choixx" id="choixx1"> <label for="dev">Baden Powell</label></div>
+
+                         <input type="radio" name="dev" id="Louis" value="faux" style="display:none"/>
+                         <div class="choixx" id="choixx2"> <label for="dev">Louis Giraud</label></div>
+
+                         <input type="radio" name="dev" id="Pierre" value="faux" style="display:none"/>
+                         <div class="choixx" id="choixx3"> <label for="dev">Gérard Jugnot</label></div>
+                         <input type="radio" name="dev" id="Baden" value="vrai" style="display:none"/>
+                         <div class="choixx" id="choixx4"> <label for="dev">Napoléon 1er</label></div>
+                         <input type="radio" name="dev" id="Charlie" value="faux" style="display:none" />
+                         <button type="button" class="validation" onclick="verifRadio()" name="personnage" id="valider1" value="Valider"/>Valider</button>
+                 </div>
+
+
+
+                <hr class="titre">
+
+                <h3>Question 2</h3>
+                 <img class="imgQuizz" src="https://idata.over-blog.com/0/16/70/19/joubert_20hike.jpg" width="200px" height="240px" >
+                <p><b>Quelle est la plus célèbre devise Scouts ?</b></p>
+
+
+                 <div class="blockQuizz">
+                         <div class="choixx" id="choix1"> <label for="dev"><q>On est là !</q></label></div>
+
+                         <input type="radio" name="dev" id="tjrsPret" value="faux" style="display:none"/>
+                         <div class="choixx" id="choix2"> <label for="dev"><q>Toujours prêt !</q></label></div>
+
+                         <input type="radio" name="dev" id="onEstLa" value="faux" style="display:none"/>
+                         <div class="choixx" id="choix3"> <label for="dev"><q>Scoute encore et toujours !</q></label></div>
+                         <input type="radio" name="dev" id="scoutons" value="vrai" style="display:none"/>
+                         <div class="choixx" id="choix4"> <label for="dev">Aucune devise </label></div>
+                         <input type="radio" name="dev" id="none" value="faux" style="display:none" />
+                         <button type="button" class="validation" onclick="verifRadio2()" name="personnage" id="valider2" value="Valider"/>Valider</button>
+                 </div>
+
+
+
+
+
+                 <hr class="titre">
+                 <h3>Question 3</h3>
+ <img class="imgQuizz" src="https://static.wixstatic.com/media/b9c5db_ff335e1d79534be28100ddb51c60df7e~mv2.gif" width="200px" height="360px" >
+
+<p><b>Combien de membres y a t'il chez les Scouts du Cameroun (SDC) ?</b></p>
+
+
+                <p id="resultatNbrsMembres">50000 membres ?</p>
+
+                <div class="curseur"><p><span style="color:#d6be1a">0</span> <input type="range" min="1" max="10000" id="nbrsMembres"/><span style="color:#d6be1a">10000</span></p>
+</div>
+<button type="button" class="validation" onclick="verifMembres()" id="valider3" >Valider</button>
+<br>
+
+
+                </div>
+
+        </div>
+        </article>
+
+        <article>
+                <div class="contenus">
+                        <h1 id="show">Enigme </h1>
+                        <div id="showing" style="display:none">
+
+                                <p>A vous de deviner le mot suivant :<br> f---a-d <br><br>
+                        <input type="text" name="resultat" id="motsMystere" placeholder="Ecrivez votre réponse ici" >
+                        <button class="validation" type="button" onclick="verifEnigme()" id="valider4" value="validé" />Valider</button></p>
+                        <p id="rep"></p>
+
+                        </div>
+                </div>
+        </article>
+
+        <article>
+                <div class="contenus">
+
+                        <h1 id="mon">Parcours du combattant</></h1>
+                                                <p>Dernière épreuves : Braver les dangers de la foret pour obtenir le dernier foulard <img src="victoireFoulard.png" width="35px" height="70px"> <br></p>
+
+                        <button class="validation" type="button" id="valider8" onclick="startGame();setTimeout(bravo,20000);" >J'accepte le challenge !</button>
+                        </div>
+
+
+
+
+                        <div class="chrono" id="compteArebours" style="display:none"></div>
+                        <div class="chrono2" id="compteArebours2" style="display:none"></div>
+                        <div class="chrono3" id="compteArebours3" style="display:none"></div>
+
+                                                <p>Bonne chance !!</p>
+                        <!--  <p><img id="coffreFerme" src="https://image.shutterstock.com/z/stock-vector-vector-icon-with-cartoon-wooden-pirate-chest-with-golden-metal-stripes-and-keyhole-on-white-720095323.jpg" width="500px" height="540px" > -->
+
+
+
+
+
+                        </div>
+  </div>
+       </article>
+       </div>
+
+  <script>
+
+let K = 0;
+
+var h = 0;
+
+
+function bravo() {
+        alert("Bravo ! Vous Avez réussi les épreuves !\n Vous êtes un SUPER scouts !");
+
+          // window.open("Felicitation.html","_blank","width=50%","height=50%");
+          window.location.href = "http://localhost/SDC/spip.php?page=Felicitation";
+
+}
+
+var myGamePiece;
+var myObstacles = [];
+var myScore;
+
+function startGame() {
+
+  myGamePiece = new component(35, 50, "victoireFoulard.png", 10, 120, "image");
+
+    myGamePiece.gravity = 0.05;
+    myScore = new component("30px", "Consolas", "#fff77b", 280, 40, "text");
+    myGameArea.start();
+}
+
+var myGameArea = {
+    canvas : document.createElement("canvas"),
+    start : function() {
+        this.canvas.width = 480;
+        this.canvas.height = 270;
+        this.context = this.canvas.getContext("2d");
+        document.body.insertBefore(this.canvas, document.body.childNodes[8]);
+        this.frameNo = 0;
+        this.interval = setInterval(updateGameArea, 20);
+        },
+    clear : function() {
+        this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+    }
+}
+
+
+function component(width, height, color, x, y, type) {
+    this.type = type;
+    if (type == "image") {
+    this.image = new Image();
+    this.image.src = color;
+  }
+    this.score = 0;
+    this.width = width;
+    this.height = height;
+    this.speedX = 0;
+    this.speedY = 0;
+    this.x = x;
+    this.y = y;
+    this.gravity = 0;
+    this.gravitySpeed = 0;
+    this.update = function() {
+        ctx = myGameArea.context;
+        if (this.type == "text") {
+            ctx.font = this.width + " " + this.height;
+            ctx.fillStyle = color;
+            ctx.fillText(this.text, this.x, this.y);
+
+
+        }
+
+    if (type == "image") {
+      ctx.drawImage(this.image,
+        this.x,
+        this.y,
+        this.width, this.height);
+    }     else {
+            ctx.fillStyle = color;
+    ctx.fillRect(this.x, this.y, this.width, this.height);
+        }
+    }
+    this.newPos = function() {
+        this.gravitySpeed += this.gravity;
+        this.x += this.speedX;
+        this.y += this.speedY + this.gravitySpeed;
+        this.hitBottom();
+    }
+    this.hitBottom = function() {
+        var rockbottom = myGameArea.canvas.height - this.height;
+        if (this.y > rockbottom) {
+            this.y = rockbottom;
+            this.gravitySpeed = 0;
+        }
+    }
+    this.crashWith = function(otherobj) {
+        var myleft = this.x;
+        var myright = this.x + (this.width);
+        var mytop = this.y;
+        var mybottom = this.y + (this.height);
+        var otherleft = otherobj.x;
+        var otherright = otherobj.x + (otherobj.width);
+        var othertop = otherobj.y;
+        var otherbottom = otherobj.y + (otherobj.height);
+        var crash = true;
+        if ((mybottom < othertop) || (mytop > otherbottom) || (myright < otherleft) || (myleft > otherright)) {
+
+            crash = false;
+        }
+        return crash;
+    }
+
+}
+
+function updateGameArea() {
+    var x, height, gap, minHeight, maxHeight, minGap, maxGap;
+    for (i = 0; i < myObstacles.length; i += 1) {
+        if (myGamePiece.crashWith(myObstacles[i])) {
+           return;
+        }
+
+    }
+    myGameArea.clear();
+    myGameArea.frameNo += 1;
+    if (myGameArea.frameNo == 1 || everyinterval(150)) {
+        x = myGameArea.canvas.width;
+        minHeight = 40;
+        maxHeight = 100;
+        height = Math.floor(Math.random()*(maxHeight-minHeight+1)+minHeight);
+        minGap = 80;
+        maxGap = 120;
+        gap = Math.floor(Math.random()*(maxGap-minGap+1)+minGap);
+        myObstacles.push(new component(10, height, "white", x, 0));
+        myObstacles.push(new component(10, x - height - gap, "white", x, height + gap));
+    }
+    for (i = 0; i < myObstacles.length; i += 1) {
+        myObstacles[i].x += -1;
+        myObstacles[i].update();
+    }
+    myScore.text="SCORE: " + myGameArea.frameNo;
+    myScore.update();
+    myGamePiece.newPos();
+    myGamePiece.update();
+}
+
+function everyinterval(n) {
+    if ((myGameArea.frameNo / n) % 1 == 0) {return true;}
+    return false;
+}
+
+function accelerate(n) {
+    myGamePiece.gravity = n;
+}
+
+document.body.addEventListener("mousedown",function() {
+        accelerate(-0.2);
+});
+
+
+document.body.addEventListener("mouseup",function() {
+        accelerate(0.05);
+});
+
+document.body.addEventListener("touchstart",function() {
+        accelerate(-0.2);
+});
+
+document.body.addEventListener("touchend",function() {
+        accelerate(0.05);
+});
+
+
+  </script>
+
+
+
+
+
+
+
+          <script>
+
+                function explication() {
+
+                        document.getElementById("afficheExplication").style.display = "block";
+document.getElementById("valider5").style.display = "none";
+document.getElementById("valider6").style.display = "none";
+document.getElementById("valider7").style.display = "none";
+                }
+
+
+  function bagarre() {
+
+document.getElementById("valider5").style.display = "none";
+document.getElementById("valider6").style.display = "none";
+document.getElementById("valider7").style.display = "none";
+          alert("Malheureusement votre adversaire maitrise parfaitement le karaté!!")
+
+          window.open("Felicitation.html","_blank","width=50%","height=50%");
+
+                }
+
+
+     function abandonner() {
+
+
+             alert("c'est dommage!");
+document.getElementById("valider5").style.display = "none";
+document.getElementById("valider6").style.display = "none";
+document.getElementById("valider7").style.display = "none";
+
+             window.open("sad.png","_blank","width=10%","height=10%");
+                function nouveau(){
+window.open("https://www.gold.fr/news/wp-content/uploads/2018/01/decouverte-tresor-jardin-comptoir-national-de-l-or-768x768.jpg","_blank","width=200","top=200");
+                       }
+
+             }
+
+
+
+
+
+
+
+
+          <!-- Question 1 -->
+
+
+
+          document.getElementById("choix1").addEventListener("click", function() {
+                  document.getElementById("tjrsPret ").checked = true;
+          });
+
+
+
+          document.getElementById("choix1").addEventListener("click", function() {
+                  document.getElementById("tjrsPret").checked = true;
+                  document.getElementById("choix1").style.cssText = "background-color:green;" ;
+                  document.getElementById("choix2").style.cssText = "background-color:#043c5e;" ;
+                  document.getElementById("choix3").style.cssText = "background-color:#043c5e;" ;
+                  document.getElementById("choix4").style.cssText = "background-color:#043c5e;" ;
+
+          });
+
+          document.getElementById("choix2").addEventListener("click", function() {
+                  document.getElementById("onEstLa").checked = true;
+                  document.getElementById("choix2").style.cssText = "background-color:green;" ;
+                  document.getElementById("choix1").style.cssText = "background-color:#043c5e;" ;
+                  document.getElementById("choix3").style.cssText = "background-color:#043c5e;" ;
+                  document.getElementById("choix4").style.cssText = "background-color:#043c5e;" ;
+
+
+          });
+
+          document.getElementById("choix3").addEventListener("click", function() {
+                  document.getElementById("scoutons").checked = true;
+                  document.getElementById("choix3").style.cssText = "background-color:green;" ;
+                  document.getElementById("choix2").style.cssText = "background-color:#043c5e;" ;
+                  document.getElementById("choix1").style.cssText = "background-color:#043c5e;" ;
+                  document.getElementById("choix4").style.cssText = "background-color:#043c5e;" ;
+
+          });
+
+          document.getElementById("choix4").addEventListener("click", function() {
+                  document.getElementById("none").checked = true;
+
+                  document.getElementById("choix4").style.cssText = "background-color:green;" ;
+                  document.getElementById("choix2").style.cssText = "background-color:#043c5e;" ;
+                  document.getElementById("choix3").style.cssText = "background-color:#043c5e;" ;
+                  document.getElementById("choix1").style.cssText = "background-color:#043c5e;" ;
+
+          });
+
+
+
+
+
+
+
+
+
+
+
+          document.getElementById("choixx1").addEventListener("click", function() {
+                  document.getElementById("Baden").checked = true;
+                  document.getElementById("choixx1").style.cssText = "background-color:green;" ;
+                  document.getElementById("choixx2").style.cssText = "background-color:#043c5e;" ;
+                  document.getElementById("choixx3").style.cssText = "background-color:#043c5e;" ;
+                  document.getElementById("choixx4").style.cssText = "background-color:#043c5e;" ;
+
+          });
+
+          document.getElementById("choixx2").addEventListener("click", function() {
+                  document.getElementById("Pierre").checked = true;
+                  document.getElementById("choixx2").style.cssText = "background-color:green;" ;
+                  document.getElementById("choixx1").style.cssText = "background-color:#043c5e;" ;
+                  document.getElementById("choixx3").style.cssText = "background-color:#043c5e;" ;
+                  document.getElementById("choixx4").style.cssText = "background-color:#043c5e;" ;
+
+
+          });
+
+          document.getElementById("choixx3").addEventListener("click", function() {
+                  document.getElementById("Louis").checked = true;
+                  document.getElementById("choixx3").style.cssText = "background-color:green;" ;
+                  document.getElementById("choixx2").style.cssText = "background-color:#043c5e;" ;
+                  document.getElementById("choixx1").style.cssText = "background-color:#043c5e;" ;
+                  document.getElementById("choixx4").style.cssText = "background-color:#043c5e;" ;
+
+          });
+
+          document.getElementById("choixx4").addEventListener("click", function() {
+                  document.getElementById("Charlie").checked = true;
+
+                  document.getElementById("choixx4").style.cssText = "background-color:green;" ;
+                  document.getElementById("choixx2").style.cssText = "background-color:#043c5e;" ;
+                  document.getElementById("choixx3").style.cssText = "background-color:#043c5e;" ;
+                  document.getElementById("choixx1").style.cssText = "background-color:#043c5e;" ;
+
+          });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <!-- curseur (combien de membres ... ?) -->
+
+document.getElementById("nbrsMembres").addEventListener("mousemove", function(){
+
+
+var affValeurs = document.getElementById("nbrsMembres").value ;
+
+        document.getElementById("resultatNbrsMembres").innerHTML = affValeurs + " membres ?";
+
+});
+
+
+
+
+document.getElementById("nbrsMembres").addEventListener("click", function(){
+
+
+var affValeurs = document.getElementById("nbrsMembres").value ;
+
+        document.getElementById("resultatNbrsMembres").innerHTML = affValeurs + " membres ?";
+
+});
+
+
+
+document.getElementById("nbrsMembres").addEventListener("touchmove", function(){
+
+
+var affValeurs = document.getElementById("nbrsMembres").value ;
+
+        document.getElementById("resultatNbrsMembres").innerHTML = affValeurs + " membres ?";
+
+});
+
+
+
+document.getElementById("nbrsMembres").addEventListener("touchstart", function(){
+
+
+var affValeurs = document.getElementById("nbrsMembres").value ;
+
+        document.getElementById("resultatNbrsMembres").innerHTML = affValeurs + " membres ?";
+
+});
+
+
+
+
+                                 <!--afficher Questions -->
+
+                document.getElementById("montrer").addEventListener("click", function afficher() {
+
+                        document.getElementById("montre").style.display = "block"; });
+
+                document.getElementById("show").addEventListener("click", function afficher() {
+
+                        document.getElementById("showing").style.display = "block"; });
+
+                                <!-- afficher Enigme -->
+
+                 document.getElementById("show").addEventListener("click", function afficher() {
+
+
+                         if (K != 3) {
+
+                         } else {
+
+
+       document.getElementById("resultatRadio").innerHTML = "Mauvaise Reponse !!";
+
+
+document.getElementById("resultatRadio").animate([
+  { opacity: '0' },
+  { opacity: '1' },
+  { opacity: '0' }
+], {
+  duration: 3000,
+  iterations: 1
+});
+
+
+
+       document.getElementById("resultatRadio").innerHTML = "Nouveau niveau débloqué !";
+               document.getElementById("resultatRadio").style.color = "#e1c40d";
+ document.getElementById("showing").style.display = "block";
+                        document.getElementById("unlock1").src = "unlock.png";
+                         }
+
+
+
+  });
+
+
+
+
+
+
+          document.getElementById("mon").addEventListener("click", function afficher() {
+
+
+
+                         if (K != 4) {
+
+                         } else {
+
+
+document.getElementById("resultatRadio").animate([
+  { opacity: '0' },
+  { opacity: '1' },
+  { opacity: '0' }
+], {
+  duration: 3000,
+  iterations: 1
+});
+
+
+
+       document.getElementById("resultatRadio").innerHTML = "Nouveau niveau débloqué !";
+               document.getElementById("resultatRadio").style.color = "#e1c40d";
+
+
+ document.getElementById("tre").style.display = "block";
+                        document.getElementById("unlock2").src = "unlock.png";
+                         }
+
+
+
+  });
+
+
+
+
+ function cPartis() {
+
+
+document.getElementById("valider8").style.display = "none";
+document.getElementById("F").style.display = "block";
+
+
+m = 0;
+
+
+                 document.getElementById("F").addEventListener("click", function() {
+                       m++;
+                        document.getElementById("cacheCache").style.display = "block";
+                        document.getElementById("foulardCacher").style.display = "block";
+                         document.getElementById("foulardCacher").src = "victoireFoulard.png";
+                        document.getElementById("F").style.display = "none";
+ document.getElementById("compteArebours").style.display = "none";
+ document.getElementById("compteArebours2").style.display = "block";
+  document.getElementById("compteArebours2").innerHTML = "Bravo vous avez Réussi !";
+
+ document.getElementById("compteArebours3").style.display = "block";
+                         document.getElementById("compteArebours3").innerHTML = 'Cliquez <a href="tresors.html">ici</a> pour ouvrir <em style="color:green">le Trésors</em>';
+
+
+                 });
+
+
+
+
+
+
+
+
+ document.getElementById("compteArebours").style.display = "block";
+var compteur = setInterval(augmenteCompteur, 1000);
+
+
+         function augmenteCompteur() {
+
+document.getElementById("compteArebours").style.color = "green" ;
+  document.getElementById("compteArebours").innerHTML = "Compte à rebours : " + compteur++ + "/120 secondes";
+
+
+                 if (compteur > 120) {
+
+                         clearInterval(compteur);
+                         document.getElementById("compteArebours").style.display = "none";
+                         document.getElementById("compteArebours2").style.display = "block";
+
+                         document.getElementById("compteArebours2").innerHTML = "Vous Avez Perdus !";
+                         document.getElementById("compteArebours3").style.display = "block";
+
+                         document.getElementById("compteArebours3").innerHTML = "<a href='jeux.html'>Recommencer ?</a> ";
+document.getElementById("compteArebours2").style.color = "red" ;
+                 }
+
+         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function Bravo() {
+        document.getElementById("rep").innerHTML = "Bonne réponse !!";
+                h+=1;
+                document.getElementById("compteurFoulard").innerHTML = h ;
+
+
+document.getElementById("laréponse").addEventListener("click", function verification() {
+        document.getElementById("rep").innerHTML = "Bonne réponse !!";
+                h+=1;
+                document.getElementById("compteurFoulard").innerHTML = h ;
+
+
+});
+}
+
+
+                        <!--verifie l'enigme du Foulard -->
+
+
+function verifEnigme() {
+
+        var reponse = "foulard";
+        var reponse2 = "Foulard";
+
+        var voirLaReponse = document.getElementById("motsMystere").value ;
+
+        if (voirLaReponse == reponse || voirLaReponse == reponse2) {
+                document.getElementById("rep").innerHTML = 'Bonne reponse!!<br><img src="smiley.png" width="120px" height="120px">'
+                h++;
+                document.getElementById("compteurFoulard").innerHTML = h ;
+
+       document.getElementById("rpl4").style.display = "block";
+        document.getElementById("rpl4").src = "foulard.png";
+       document.getElementById("valider4").style.display = "none";
+                K++;
+
+        } else {
+                document.getElementById("rep").innerHTML = 'Mauvaise Reponse! <br><img src="sad.png" width="120px" height="120px">' + '<br><i style="color:#d6be1a">Indice: image question 3</i>' ;
+
+        }
+}
+
+                        <!--QUi est ce personnaage questions -->
+
+
+
+
+
+function verifRadio() {
+
+        var resultat = document.getElementById("Baden").checked;
+        var resultat1 = document.getElementById("Pierre").checked;
+        var resultat2 = document.getElementById("Louis").checked;
+        var resultat3 = document.getElementById("Charlie").checked;
+
+        var vraiReponse = document.getElementById("Baden").checked = true;
+
+
+
+
+        if (resultat == vraiReponse) {
+
+
+document.getElementById("resultatRadio").animate([
+
+
+
+
+
+
+  { opacity: '0' },
+  { opacity: '1' },
+  { opacity: '0' }
+], {
+  duration: 3000,
+  iterations: 1
+});
+
+
+
+
+
+
+               document.getElementById("resultatRadio").style.color = "#268a00";
+       document.getElementById("resultatRadio").innerHTML = "BONNE REPONSE !!";
+                h++;
+                document.getElementById("compteurFoulard").innerHTML = h ;
+
+       document.getElementById("rpl1").style.display = "block";
+       document.getElementById("rpl1").src = "foulard.png";
+       document.getElementById("valider1").style.display = "none";
+
+                K++;
+
+        } else {
+
+
+
+document.getElementById("resultatRadio").animate([
+  { opacity: '0' },
+  { opacity: '1' },
+  { opacity: '0' }
+], {
+  duration: 3000,
+  iterations: 1
+});
+
+
+
+
+
+               document.getElementById("resultatRadio").style.color = "#ff0000";
+       document.getElementById("resultatRadio").innerHTML = "Mauvaise Reponse !!";
+        }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+function verifRadio2() {
+
+
+        var resultat1 = document.getElementById("tjrsPret").checked;
+        var resultat = document.getElementById("onEstLa").checked;
+        var resultat2 = document.getElementById("scoutons").checked;
+        var resultat3 = document.getElementById("none").checked;
+
+        var vraiReponse = document.getElementById("scoutons").checked = true;
+
+        var fauxReponse = document.getElementById("scoutons").checked = false;
+
+
+
+        if (resultat == vraiReponse) {
+
+document.getElementById("resultatRadio").animate([
+  { opacity: '0' },
+  { opacity: '1' },
+  { opacity: '0' }
+], {
+  duration: 3000,
+  iterations: 1
+});
+
+
+
+
+               document.getElementById("resultatRadio").style.color = "#268a00";
+       document.getElementById("resultatRadio").innerHTML = "BONNE REPONSE !!";
+                h+=1;
+                document.getElementById("compteurFoulard").innerHTML = h ;
+
+       document.getElementById("rpl2").style.display = "block";
+       document.getElementById("rpl2").src = "foulard.png";
+       document.getElementById("valider2").style.display = "none";
+                K++;
+
+
+        } else {
+
+document.getElementById("resultatRadio").animate([
+  { opacity: '0' },
+  { opacity: '1' },
+  { opacity: '0' }
+], {
+  duration: 3000,
+  iterations: 1
+});
+
+
+
+               document.getElementById("resultatRadio").style.color = "#ff0000";
+       document.getElementById("resultatRadio").innerHTML = "Mauvaise Reponse !!";
+
+        }
+
+
+}
+
+
+
+
+
+
+
+
+                        <!--Nombres de membres Curseurs -->
+
+function verifMembres() {
+
+ var vraiNbrs = document.getElementById("nbrsMembres").value ;
+
+
+document.getElementById("resultatRadio").animate([
+  { opacity: '0' },
+  { opacity: '1' },
+  { opacity: '0' }
+], {
+  duration: 3000,
+  iterations: 1
+});
+
+
+
+
+
+
+        if (vraiNbrs < 4500) {
+               document.getElementById("resultatRadio").innerHTML = " Les Scouts sont plus nombreux que cela !";
+
+               document.getElementById("resultatRadio").style.color = "#ff0000";
+        } else if (vraiNbrs > 4700) {
+
+               document.getElementById("resultatRadio").style.color = "#ff0000";
+               document.getElementById("resultatRadio").innerHTML =  "Oula! c'est bien trop nombreux !";
+        }
+        else {
+               document.getElementById("resultatRadio").style.color = "#268a00";
+                h++;
+                document.getElementById("compteurFoulard").innerHTML = h ;
+
+                document.getElementById("resultatRadio").innerHTML =  "Bonne réponse !!<br>Les SDC rassemble 4500 membres environs !";
+       document.getElementById("rpl3").style.display = "block";
+               document.getElementById("rpl3").src = "foulard.png";
+       document.getElementById("valider3").style.display = "none";
+                K++;
+
+
+        }
+
+}
+  </script>
+
+
+
+
+
+
+
+</body>
+</html>

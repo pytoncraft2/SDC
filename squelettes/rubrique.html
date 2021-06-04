@@ -1,87 +1,67 @@
-
-
-
-
-
-
 <BOUCLE_principale(RUBRIQUES) {id_rubrique}>
 
-<!DOCTYPE html>
-<html lang="fr" >
+  <!DOCTYPE html>
+  <html lang="fr">
 
-<head>
-<INCLURE{fond=inclure/head} />
-</head>
-
-
-<body>
-
-        <header>
-
-                <div class="headE">SCOUTS DU CAMEROUN</div>
-                <div class="triH"></div>
-                <div class="triH2"></div>
-        </header>
-<h2 class="Bienvenue">#TITRE </h2>
-	<div class="center-imagev2">
-	<div class="logoAcc">Catégorie [(#LOGO_RUBRIQUE|image_reduire{224,*}) ]</div>
-	</div>
+  <head>
+    <INCLURE{fond=inclure /head} />
+  </head>
 
 
-			[(#REM) Articles de la rubrique ]
-			<B_articles>
-			<div class="listeArticle">
-				<div class="insideListeArticle">
-				#ANCRE_PAGINATION
-					<BOUCLE_articles(ARTICLES) {id_rubrique} {!par date} {pagination}>
-					<a href="#URL_ARTICLE">[(#LOGO_ARTICLE_RUBRIQUE|image_reduire{150,*}) ]#TITRE</a>
-						<div class="#EDIT{intro} introduction entry-content">(#INTRODUCTION)</div>
-					</BOUCLE_articles>
-				</div>
-			</div>
-				[<p class="pagination">(#PAGINATION)</p>]
-			</B_articles>
-	
-			[(#REM) Si aucun article, affiche un plan de la rubrique ]
-			<B_sous_rubriques>
-				<h2><:sous_rubriques:></h2>
-					<BOUCLE_sous_rubriques(RUBRIQUES) {id_parent} {par num titre}{!par date}>
-						<a href="#URL_RUBRIQUE">#TITRE</a>
-	
-						[(#REM) Une boucle recursive pour le mini plan]
-						<B_miniplan>
-							<BOUCLE_miniplan(RUBRIQUES) {id_parent} {par num titre}{!par date}>
-								<a href="#URL_RUBRIQUE">#TITRE</a>
-								<BOUCLE_m2(BOUCLE_miniplan)></BOUCLE_m2>
-							</BOUCLE_miniplan>
-						</B_miniplan>
-	
-					</BOUCLE_sous_rubriques>
-			</B_sous_rubriques>
-	
-			<//B_articles>[(#REM) supprimer pour toujours avoir le miniplan]
+  <body>
+
+    <header>
+
+      <div class="headE">SCOUTS DU CAMEROUN</div>
+      <div class="triH"></div>
+      <div class="triH2"></div>
+    </header>
+    <h2 class="Bienvenue">#TITRE </h2>
+    <div class="center-imagev2">
+      <div class="logoAcc">Catégorie [(#LOGO_RUBRIQUE|image_reduire{224,*}) ]</div>
+    </div>
 
 
+    [(#REM) Articles de la rubrique ]
+    <B_articles>
+      <div class="listeArticle">
+        <div class="insideListeArticle">
+          #ANCRE_PAGINATION
+          <BOUCLE_articles(ARTICLES) {id_rubrique} {!par date} {pagination}>
+            <a href="#URL_ARTICLE">[(#LOGO_ARTICLE_RUBRIQUE|image_reduire{150,*}) ]#TITRE</a>
+            <div class="#EDIT{intro} introduction entry-content">(#INTRODUCTION)</div>
+            </BOUCLE_articles>
+        </div>
+      </div>
+      [<p class="pagination">(#PAGINATION)</p>]
+    </B_articles>
+
+    [(#REM) Si aucun article, affiche un plan de la rubrique ]
+    <B_sous_rubriques>
+      <h2>
+        <:sous_rubriques:>
+      </h2>
+      <BOUCLE_sous_rubriques(RUBRIQUES) {id_parent} {par num titre}{!par date}>
+        <a href="#URL_RUBRIQUE">#TITRE</a>
+
+        [(#REM) Une boucle recursive pour le mini plan]
+        <B_miniplan>
+          <BOUCLE_miniplan(RUBRIQUES) {id_parent} {par num titre}{!par date}>
+            <a href="#URL_RUBRIQUE">#TITRE</a>
+            <BOUCLE_m2(BOUCLE_miniplan)>
+              </BOUCLE_m2>
+              </BOUCLE_miniplan>
+        </B_miniplan>
+
+        </BOUCLE_sous_rubriques>
+    </B_sous_rubriques>
+
+    </ /B_articles>[(#REM) supprimer pour toujours avoir le miniplan]
 
 
+    <INCLURE{fond=inclure /footer} />
+  </body>
 
+  </html>
 
-                                        
-<INCLURE{fond=inclure/footer} />
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-	
-	
-</BOUCLE_principale>
+  </BOUCLE_principale>

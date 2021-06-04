@@ -3,21 +3,19 @@
 	<div class="Up" onclick="toTop()"><span class="lnr lnr-arrow-up-circle"></span></div>
 	<div class="Up" id="slideBottom"><span class="lnr lnr-chevron-down"></span></div>
 </div>
-	<script>
+<script>
+	const buttonRight = document.getElementById('slideTop');
+	const buttonLeft = document.getElementById('slideBottom');
 
-    const buttonRight = document.getElementById('slideTop');
-    const buttonLeft = document.getElementById('slideBottom');
+	buttonRight.onclick = function() {
+		document.querySelector('html').scrollTop -= 600;
+	};
+	buttonLeft.onclick = function() {
+		document.querySelector('html').scrollTop += 600;
+	};
 
-    buttonRight.onclick = function () {
-      document.querySelector('html').scrollTop -= 600;
-    };
-    buttonLeft.onclick = function () {
-      document.querySelector('html').scrollTop += 600;
-    };
+	function toTop() {
 
-function toTop() {
-
-window.scrollTo(0, 0);
-}
-
-	</script>
+		window.scrollTo(0, 0);
+	}
+</script>
